@@ -5,6 +5,9 @@ Software Engineering Day1 Assignment
 
 Explain what software engineering is and discuss its importance in the technology industry.
 
+Software engineering is a discipline that involves the systematic application of engineering principles to the design, development, maintenance, testing, and evaluation of software systems. It focuses on creating software that is reliable, efficient, and meets the needs of users while being maintainable and scalable over time.
+Software engineering is an engineering discipline that is concerned with all aspects of software production.
+
 
 Identify and describe at least three key milestones in the evolution of software engineering.
 
