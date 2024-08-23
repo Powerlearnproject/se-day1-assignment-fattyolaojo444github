@@ -24,7 +24,12 @@ They also develop tools for vulnerability assessment, intrusion detection, and i
 
 
 Identify and describe at least three key milestones in the evolution of software engineering.
-
+1. The Birth of High-Level Programming Languages (1950s)
+Overview: In the early days of computing, programs were written in machine code or assembly language, which was tedious and error-prone. The development of high-level programming languages like FORTRAN (1957), COBOL (1959), and ALGOL (1960) revolutionized software development by allowing engineers to write code that was easier to understand, maintain, and debug.
+Impact: High-level languages abstracted the complexities of hardware, enabling the development of more complex software and making programming more accessible to a broader range of people.
+2. The Emergence of Structured Programming (1960s-1970s)
+Overview: Structured programming introduced a methodology that emphasized the use of clear, logical control structures such as loops, conditionals, and subroutines. Notable languages from this era include Pascal (1970) and C (1972).
+Impact: This approach reduced the complexity of software by promoting code modularity and clarity, leading to fewer errors and making programs easier to understand and maintain. The concept of breaking down problems into smaller, manageable modules became a cornerstone of software engineering.
 
 List and briefly explain the phases of the Software Development Life Cycle.
 Communication 
