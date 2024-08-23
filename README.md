@@ -140,15 +140,15 @@ Dynamic Environments: Agile is well-suited for projects where requirements are e
 Customer-Centric Projects: Projects where continuous user feedback is essential, such as mobile app development, SaaS products, or digital marketing campaigns.
 Time-Sensitive Projects: When there is a need to deliver a minimum viable product (MVP) quickly and then iterate based on user feedback.
 Comparison Summary
-Aspect	                                     Waterfall	                                         Agile
-Approach	              Linear and sequential              	Iterative and incremental
+Aspect	                    Waterfall                             Agile
+Approach	              Linear and sequential                	Iterative and incremental
 Flexibility	              Low, changes are costly	             High, can adapt to changes easily
-Customer  Involvement	Limited during development	High, continuous feedback
+Customer  Involvement	Limited during development	High,      continuous feedback
 Documentation	       Extensive and detailed upfront	Minimal, evolves with the project
 Risk Management	   Risks identified and managed early	  Risks managed continuously
 Progress Measurement	Phase completion	Working software delivered incrementally
 
-Examples of Appropriate Scenarios
+Examples of Appropriate Scenario
 Waterfall Example: A government contract for developing a compliance-driven system where all requirements must be documented and approved upfront with minimal changes expected.
 
 Agile Example: A startup developing a new mobile app where user needs are still being discovered, and rapid iterations based on feedback are crucial for success
@@ -168,18 +168,131 @@ Most of the managers take responsibility for writing the project proposal, proje
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
 Importance of an integrated Development Environment (IDE)
 An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as software editing, building, testing, and packaging in an easy-to-use application. Just as writers use text editors and accountants use spreadsheets, software developers use IDEs to make their job easier.
+Tools found in IDEs
+Code editor: A code editor is a tool for writing and editing source code, which is the underlying language of computer programs. Code editors are more efficient than text editors because they provide a simpler interface for writing and editing code.
+Compiler: A compiler converts the source code a programmer writes into machine-readable language computers can execute.
+Debugger: A debugger is a tool developers use to find and remove bugs in written code. They're used to make code cleaner, which makes them vital for the testing stage of software development.
+Build automation tools: Build automation involves automating tasks required to transform source code into executable programs. Developers use these tools to save time through automation instead of completing tasks manually.
+Class browser: This tool allows developers to navigate the class structure of an object-oriented software program.
+Object browser: An object browser allows a developer to browse through the objects in a project and examine their properties, methods and events. You can also use it to check the procedures and constants available from object libraries in a project.
+Class hierarchy diagram: This tool allows developers to visualise the structure of the code in object-oriented programming.
+Autocomplete: IDEs also have autocomplete capabilities. For example, when you're using an IDE for a specific language, the tool can predict what you're going to type next and autocomplete it for you, which makes your work faster.
+Syntax highlighting: If an IDE knows the syntax of the programming language you're using, it can provide visual cues by highlighting words with special meanings in different colours
+
+Examples of IDE
+Visual Studio
+Eclipse
+NetBeans
+Pycharm
+IntelliJ IDEA
+Xcode
+Atom
+Jupiter
+
+Version Controls System 
+Version control, also known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. As development environments have accelerated, version control systems help software teams work faster and smarter. They are especially useful for DevOps teams since they help them to reduce development time and increase successful deployments.
+
+Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+Examples of Version Control System
+Git
+Mercurial
+Svn
+Bitbucket
+Azure DevOps Server
+Gitlab
+IBM DevOps Code ClearCase
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
+1. The rapid advancement of technology
+For the IT sector, every technological innovation is a blessing. The rapid advancement of technology puts additional pressure on software development professionals to take advantage of these trends when creating new software products to stand out from the crowd and obtain a competitive advantage. 
+Solution: Software Engineers should be updated with the ever changing technology
+
+2. Increasing customer demands in the development stage
+The majority of software projects are conceptual in nature and are focused on creating software solutions that satisfy a range of consumer needs. Even the simplest application or product requires developers to fully grasp the underlying business concept and incorporate the necessary functionality to meet the ever-increasing client needs.
+Solution: Software Engineers should ensure customers or users requirements are well documentation to ensure the delivery of a reliable software product that satisfies users need.
+
+3. Time limitation
+The deadlines set for software engineers are incredibly short and are one of the major challenges of being a software engineer. After all, it is a game of time. When engineers collaborate with several clients across various time zones, the process becomes considerably more difficult. These time restraints frequently cause development teams to work less productively, resulting in subpar-quality products.
+Solution: Software Engineers should ensure enough time is budgeted for the completion of the project.
+
 
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+Unit Testing
+Unit testing is a software testing technique where individual components or units of a software application are tested in isolation to ensure they perform as expected. It involves testing each unit of the code independently to verify its functionality, typically using automated testing frameworks. The goal is to identify and fix bugs early in the development process and to ensure that each unit works correctly on its own before integrating it into the larger Systems.
+
+Importance
+To isolate a section of code.
+To verify the correctness of the code.
+To test every function and procedure.
+To fix bugs early in the development cycle and to save costs.
+To help the developers understand the code base and enable them to make changes quickly.
+To help with code reuse.
+
+Type of Unit Testing
+1. Manual Testing
+2. Automation Testing
+
+Integration Testing
+Integration testing is a software testing technique that focuses on verifying the interactions and data exchange between different components or modules of a software application. The goal of integration testing is to identify any problems or bugs that arise when different components are combined and interact with each other. Integration testing is typically performed after unit testing and before system testing. It helps to identify and resolve integration issues early in the development cycle, reducing the risk of more severe and costly problems later on.
+
+System Testing
+System testing is a type of software testing that evaluates the overall functionality and performance of a complete and fully integrated software solution. It tests if the system meets the specified requirements and if it is suitable for delivery to the end-users. This type of testing is performed after the integration testing and before the acceptance testing.
+
+
+Types
+Performance Testing
+Load Testing
+Stress Testing
+Scalability Testing
+Tools used for System Testing
+JMeter
+Gallen Framework
+HP Quality Center/ALM
+IBM Rational Quality Manager
+Microsoft Test Manager
+Selenium
+Appium
+
+Acceptance Testing
+Acceptance Testing is an important aspect of Software Testing, which guarantees that software aligns with user needs and business requirements. The major aim of this test is to evaluate the compliance of the system with the business requirements and assess whether it is acceptable for delivery or not.
+
+Types of Acceptance Testing
+User Acceptance Testing (UAT)
+Business Acceptance Testing (BAT)
+Contract Acceptance Testing (CAT)
+Regulations Acceptance Testing (RAT)
+Operational Acceptance Testing (OAT)
+Alpha Testing
+Beta Testing
+
+
 
 
 #Part 2: Introduction to AI and Prompt Engineering
 
-
+Prompt Engineering
+Prompt engineering is the process of structuring an instruction that can be interpreted and understood by a generative AI model.Since AI models generate outputs based on the instructions they receive, the quality, clarity, and specificity of the prompt directly influence the output.
+ A prompt is natural language text describing the task that an AI should perform.
+Prompt engineering involves understanding the model's capabilities and constraints, then crafting questions, statements, or tasks that guide the model toward a particular type of response. 
+It's importance in interacting with AI
 Define prompt engineering and discuss its importance in interacting with AI models.
-
-
+1. Maximizing Output Quality
+The quality of an AI's output heavily depends on the prompt provided. A well-crafted prompt can guide the AI to generate more accurate, relevant, and coherent responses. 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+
+2. Controlling the Model's Behavior
+AI models, especially large language models, can generate a wide range of responses. Prompt engineering allows users to control the model's behavior by specifying the tone, style, or level of detail required. For example, a prompt can request a formal explanation, a casual summary, or a technical analysis.
+3. Improving Efficiency
+Efficient prompts save time by reducing the need for multiple iterations. By minimizing ambiguity and being clear about the expected outcome, users can get desired results faster. 
+4. Customization for Specific Tasks
+Different tasks require different approaches. Prompt engineering allows customization of the AI’s output to suit specific needs, such as generating creative content, summarizing long documents, translating languages, or solving complex problems. By tailoring the prompt, the AI can be optimized for a particular task or audience.
+
+
+An example:
+Prompt: "Tell me about technology."
+This prompt is unclear and broad, leading to a response that could go in many directions. The AI could talk about anything related to technology—ranging from the history of computers to recent advancements in AI, or even general aspects like its impact on society. Because it lacks specificity, the response may not be useful for the user’s actual intent.
+Clear, concise:
+"Describe the latest advancements in artificial intelligence and their impact on healthcare."
+This version specifies the area of technology (artificial intelligence), the focus (latest advancements), and the context (impact on healthcare), guiding the AI to generate a targeted response
