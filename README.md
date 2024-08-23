@@ -166,6 +166,8 @@ The job responsibilities of a project manager range from invisible activities li
 Most of the managers take responsibility for writing the project proposal, project cost estimation, scheduling, project staffing, software process tailoring, project monitoring and control, software configuration management, risk management, managerial report writing, and presentation, and interfacing with clients.
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
+Importance of an integrated Development Environment (IDE)
+An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as software editing, building, testing, and packaging in an easy-to-use application. Just as writers use text editors and accountants use spreadsheets, software developers use IDEs to make their job easier.
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
